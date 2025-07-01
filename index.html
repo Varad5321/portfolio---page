@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Login</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <span class="menu-btn material-symbols-rounded">menu</span>
+      <a href="#" class="logo"></a>
+      <ul class="links">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact </a></li>
+      </ul>
+      <button class="login-btn">Log in</button>
+    </nav>
+  </header>
+
+  
+</div>
+</div>
+
+  <div class="blur-bg-overlay"></div>
+
+ 
+
+
+  <div class="form-popup">
+    <span class="close-btn material-symbols-rounded">close</span>
+
+    <div class="form-box login">
+      <div class="form-details">
+        <h2>Welcome Back</h2>
+        <p>Please log in using your personal details to stay connected with us.</p>
+      </div>
+      <div class="form-content">
+        <h2>LOGIN</h2>
+        <form action="#" onsubmit="return validationlogin()">
+          <div class="input-field">
+            <input type="text" required id="user" autofocus />
+            <span id="username" class="es"></span>
+            <label>Email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required id="pass" />
+            <span id="passwords" class="es"></span>
+            <label>Password</label>
+          </div>
+          <a href="#" class="forgot-pass">Forgot password?</a>
+          <button type="submit">Log In</button>
+        </form>
+        <div class="bottom-link">
+          Don't have an account? <a href="#" id="signup-link">Signup</a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="form-box signup">
+      <div class="form-details">
+        <h2>Create Account</h2>
+        <p>To become a part of our community, please sign up using your personal details.</p>
+      </div>
+      <div class="form-content">
+        <h2>SIGNUP</h2>
+        <form action="#" onsubmit="return validationsignup()">
+          <div class="input-field">
+            <input type="text" id="emailid" required />
+            <span id="Email" class="se"></span>
+            <label>Enter your email</label>
+          </div>
+          
+          <div class="input-field">
+            <input type="password" id="signup-pass" required />
+            <span id="Pass" class="se"></span>
+            <label>Create password</label>
+          </div>
+          <div class="policy-text">
+            <input type="checkbox" id="policy" />
+            <label for="policy">
+              I agree to the <a href="#">Terms & Conditions</a>
+            </label>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="bottom-link">
+          Already have an account? <a href="#" id="login-link">Login</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
