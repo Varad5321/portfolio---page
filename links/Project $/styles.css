@@ -1,0 +1,54 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+  font-family: 'Times New Roman';
+  background-image: url(image.jpg);
+  background-repeat: round;
+  
+}
+
+h2 {
+  background-color: rgb(230, 177, 177);
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  border: solid black 2px;
+  padding: 10px;
+}
+
+h4 {
+  background-color: rgb(230, 177, 177);
+  margin: 2rem auto 1rem auto;
+  max-width: 400px;
+  border-radius: 10px;
+  border: solid black 2px;
+  padding: 5px;
+}
+
+.container {
+  background-color: rgb(200, 221, 230);
+  border: solid rgb(153, 153, 250) 2px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.custom-box {
+  font-size: 18px;
+}
+
+#name,
+#emails,
+#user,
+#pass,
+#conpass,
+#mobileNumber {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
